@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="lab6.features.search.LoginValidStory" skipped="0" tests="1" time="13.52" timestamp="2023-11-20 03:55:17"><testcase classname="lab6.features.search.LoginValidStory" name="Successful login"><error message="Expected condition failed: waiting for element to be clickable: Homepage.signIn (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for element to be clickable: Homepage.signIn (tried for 10 second(s) with 500 milliseconds interval)</error><system-err>Expected condition failed: waiting for element to be clickable: Homepage.signIn (tried for 10 second(s) with 500 milliseconds interval)
+lab6.pages.Homepage.clickToSignIn(Homepage.java:23)
+lab6.steps.serenity.EndUserLoginSteps.clickSignInButton(EndUserLoginSteps.java:28)
+lab6.features.search.LoginValidStory.successful_login(LoginValidStory.java:46)
+</system-err></testcase></testsuite>

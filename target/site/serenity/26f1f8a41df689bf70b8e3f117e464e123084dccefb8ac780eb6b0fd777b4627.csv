@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add to cart item story","Add item to cart","SUCCESS","2023-11-23T17:05:34.979+02:00[Europe/Bucharest]","0.0","17.39"
+"Navigation to an item story","Navigate to an item","SUCCESS","2023-11-23T17:05:55.914+02:00[Europe/Bucharest]","0.0","11.21"
+"Login valid story","Successful login","SUCCESS","2023-11-23T17:06:07.345+02:00[Europe/Bucharest]","0.0","8.65"
+"Login invalid story","Unsuccessful login","SUCCESS","2023-11-23T17:06:16.197+02:00[Europe/Bucharest]","0.0","8.48"
+"Search product story","Search for aproduct","SUCCESS","2023-11-23T17:06:24.869+02:00[Europe/Bucharest]","0.0","7.66"

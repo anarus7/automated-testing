@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="lab6.features.search.LoginValidStory" time="18.405" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2023.2.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.392-b08"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rusana-maria/Desktop/Programare/Testare/lab6seara"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="RO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/rusana-maria/Desktop/Programare/Testare/lab6seara"/>
+    <property name="java.runtime.version" value="1.8.0_392-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9x/8fbynsw94jdgyppbhlxpq5w40000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.9.5/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rusana-maria/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.9.5/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="14.1.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/rusana-maria"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="rusana-maria"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.9.5/libexec/boot/plexus-classworlds.license:/opt/homebrew/Cellar/maven/3.9.5/libexec/boot/plexus-classworlds-2.7.0.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.2.5 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_392"/>
+    <property name="java.ext.dirs" value="/Users/rusana-maria/Library/Java/Extensions:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/resources.jar:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/rt.jar:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/sunrsasign.jar:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jsse.jar:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jce.jar:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/charsets.jar:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/lib/jfr.jar:/Users/rusana-maria/Library/Java/JavaVirtualMachines/corretto-1.8.0_392/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.9.5/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="successful_login" classname="lab6.features.search.LoginValidStory" time="13.657">
+    <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;Russ-MacBook-Air.local&apos;, ip: &apos;2a04:2413:8300:cd00:479:ee1:8e6:79d1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.1.1&apos;, java.version: &apos;1.8.0_392&apos;&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;Russ-MacBook-Air.local&apos;, ip: &apos;2a04:2413:8300:cd00:479:ee1:8e6:79d1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;14.1.1&apos;, java.version: &apos;1.8.0_392&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Russ-MacBook-Air.local', ip: '2a04:2413:8300:cd00:479:ee1:8e6:79d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.1', java.version: '1.8.0_392'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Russ-MacBook-Air.local', ip: '2a04:2413:8300:cd00:479:ee1:8e6:79d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.1', java.version: '1.8.0_392'
+Driver info: driver.version: unknown
+	at lab6.features.search.LoginValidStory.successful_login(LoginValidStory.java:46)
+</error>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/rusana-maria/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/rusana-maria/.m2/repository/org/slf4j/slf4j-simple/1.7.7/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Nov 20, 2023 3:55:17 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 20231
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 20, 2023 3:55:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
